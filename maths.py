@@ -1,5 +1,9 @@
 def factorial(n):
-    pass
+    if n==0:
+        return 1
+    else:
+        return n*factorial(n-1)
+        
 
 def add(first, second, base_change=None):
     if base_change!=None:
