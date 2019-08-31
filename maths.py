@@ -1,3 +1,6 @@
+def factorial(n):
+    pass
+
 def add(first, second, base_change=None):
     if base_change!=None:
         return(add(convert_base(first,base_change),convert_base(second,base_change)))
